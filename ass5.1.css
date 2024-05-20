@@ -1,0 +1,483 @@
+
+
+.main{
+    background-color: darkgoldenrod;
+}
+h1{
+    margin-left: 500px;
+    /* background-color: blueviolet; */
+    margin-top: 40px;
+    text-decoration: underline;
+}
+.li{
+    margin-left: 350px;
+}
+.one {
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    /* border: 2px solid black; */
+    margin-right: 80px;
+    margin-top: 100px;
+    background-image: url(./th\ \(1\).jpeg);
+    background-size: cover;
+    position: relative;
+    animation-name:nik;
+    /* animation-delay:2s; */
+    animation-duration: 2s;
+    animation-name: nik;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes nik{
+    0%{
+       left: 0px;
+       right: 0px;
+       transform: skewX(20deg);
+    }
+    50%{
+     
+       transform:skewX(-20deg);
+
+    }
+    100%{
+        
+        transform: skewX(20deg);
+ 
+
+    }
+    
+    
+   
+}
+
+.o{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    background-image: url(./th.jpeg);
+    background-size: cover;
+    animation-duration: 2s;
+    animation-name: nik;
+    animation-iteration-count: infinite;
+    
+
+}
+.n{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    /* border: 2px solid black; */
+    margin-left: 80px;
+    margin-top: 100px;
+    background-image: url(./th\ \(2\).jpeg);
+    background-size: cover;
+    animation-duration: 2s;
+    animation-name: nik;
+    animation-iteration-count: infinite;
+    
+}
+.two{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(3\).jpeg);
+    background-size: cover;
+    margin-right: 80px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: hil;
+    animation-iteration-count: infinite;
+    
+
+}
+.t{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:yellow;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(4\).jpeg);
+    background-size: cover;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: hil;
+    animation-iteration-count: infinite;
+    
+}
+.w{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:yellow;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(4\).jpeg);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-name: hil;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes hil{
+    0%{
+        left: 0px;
+        right: 0px;
+        transform: skewY(20deg);
+    }
+    50%{
+        /* transform: skewY(20deg); */
+        transform: skewY(-20deg);
+    }
+    100%{
+        /* transform: scaleY(-20ddeg); */
+        transform: skewY(20deg);
+    }
+    
+}
+.three{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:pink;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(5\).jpeg);
+    background-size: cover;
+    margin-right: 80px;
+    margin-top: 100px;
+    animation-name: him;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+
+}
+.h{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:pink;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(5\).jpeg);
+    background-size: cover;
+    margin-top: 100px;
+    animation-name: him;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+
+}
+.r{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:pink;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(5\).jpeg);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 100px;
+    animation-name: him;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes him{
+    0%{
+        left: 0px;
+        right: 0px;
+        
+
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.four{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:chocolate;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(9\).jpeg);
+    background-size: cover;
+    margin-right: 80px;
+    margin-top: 120px;
+    animation-name: shu;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes shu{
+    0%{
+        left: 0px;
+        right: 0px;
+    }
+    50%{
+        transform: scaleY(0.5);
+        
+        
+    }
+}
+.five{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:greenyellow;
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(10\).jpeg);
+    background-size: cover;
+    margin-top: 120px;
+    animation-name: man;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes man{
+    0%{
+        left: 0px;
+        right:0px;
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+}
+.six{
+    display:inline-block;
+    height: 150px;
+    width: 150px;
+    background-color:rgb(65, 12, 3);
+    /* border: 2px solid black; */
+    background-image: url(./th\ \(11\).jpeg);
+    background-size: cover;
+    margin-left: 80px;
+    margin-top: 120px;
+    position:relative;
+    animation-name: abc;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes abc{
+    50%{
+        transform: rotate(360deg);
+        /* transform: rotate(-360deg); */
+        
+    }
+    /* 20%{
+        transform: rotate(360deg);
+    } */
+}
+
+
+
+.osi{
+    background-color: coral;
+}
+.model{
+    margin-left: 400px;
+}
+.phy{
+    height: 150px;
+    width: 150px;
+    background-color: darkgreen;
+    margin-top: 100px;
+    transition-duration: 2s;
+    border: 5px solid black;
+    border-radius: 8px;
+    
+}
+.phy:hover{
+    /* transition:conic gradient; */
+    /* transform: scaleX(1.5); */
+    padding-left: 80px;
+    background-image: linear-gradient(blue , black , red);
+}
+.data{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin-top: 70px;
+    transition-duration: 2s;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.data:hover{
+    padding: 80px;
+    background-image: url(./th\ \(9\).jpeg);
+}
+.net{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(128, 119, 0);
+    margin-top: 70px;
+    transition-duration: 2s;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.net:hover{
+    padding-right: 50px ;
+    background-image: url(./th\ \(7\).jpeg);
+}
+.tran{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(128, 51, 0);
+    margin-top: 70px;
+    transition-duration: 4s;
+    border: 5px solid black;
+    border-radius: 8px;
+
+}
+.tran:hover{
+    padding-left: 70px;
+    background-image: url(./th\ \(8\).jpeg);
+}
+.sea{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 128, 128);
+    margin-top: 70px;
+    transition-duration: 4s;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.sea:hover{
+    padding-bottom:50px ;
+    background-image: radial-gradient(pink , brown , white);
+}
+.pre{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(38, 0, 128);
+    margin-top: 70px;
+    transition-duration: 4s;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.pre:hover{
+    padding-top:80px;
+    background-image: conic-gradient(green 0deg,green 90deg, purple 90deg, purple 180deg, yellow 180deg, yellow 270deg, pink 270deg, pink 360deg);
+    border-radius: 50%;
+}
+.app{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(128, 15, 0);
+    margin-top: 70px;
+    transition-duration: 2s;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.app:hover{
+    padding-left: 70px;
+    background-image: linear-gradient(red , yellow ,green);
+}
+
+
+
+
+
+
+
+
+             /* page no 3 */
+
+/* div{
+    background-image: linear-gradient( 90deg , orange , white , green);
+    height: 2000px;
+    width: 1500px;
+    
+}              */
+ .city{
+    margin-top: -250px;
+ }
+ .road{
+    margin-top: -10px;
+    animation-name: road;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-repeat: repeat-x;
+    /* background-image: url(./road.jpg); */
+    z-index: 1;
+    position: relative;
+ }
+ @keyframes road{
+    100%{
+        transform: translate(-2000px);
+    }
+ }
+ .sun{
+    /* margin-left: 1200px ; */
+    margin-top: -600px;
+    width: 100%;
+ }
+ .gadi{
+    margin-top: 200px;
+    margin-left: 300px;
+    z-index: 2;
+    position: absolute;
+ }
+ .wheel{
+    margin-left: 350px;
+    margin-top: 300px;
+    z-index: 2;
+    position: absolute;
+    
+ }
+ .abc{
+    animation-name: wheel;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+ @keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+        
+    }
+ }
+ .tyre{
+    margin-left: 710px;
+    margin-top: 305px;
+    z-index: 2;
+    position: absolute;
+ }
+ /* .flag{
+    margin-left: 750px;
+    /* margin-top: 310px; */
+    /* margin-top: 140px; */
+ /* }  */
+  .final{
+     margin-left:450px ;
+    margin-top:-200px ;
+     transform: rotateY(180deg);
+    margin-right: 510px;
+ }
+ .z{
+    display: inline;
+    background-color: orange;
+    
+ }
+ .i{
+    display: inline;
+    background-color:white;
+
+ }
+ .d{
+    display: inline;
+    background-color: green;
+    margin-right: 500px;
+    
+ }
+ .asus{
+    background-image:linear-gradient( 90deg , orange , white , green);
+    
+ }
